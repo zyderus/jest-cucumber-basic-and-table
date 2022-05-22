@@ -1,0 +1,24 @@
+{
+  "name": "jest-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "jest": {
+    "testMatch": [
+      "**/*.steps.js",
+      "**/*.test.js"
+    ]
+  },
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^28.1.0",
+    "jest-cucumber": "^3.0.1"
+  }
+}
